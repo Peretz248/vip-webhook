@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: vip-webhook
+    env: static
+    buildCommand: ./render/build.sh
+    staticPublishPath: public
